@@ -32,4 +32,9 @@ resource "aws_s3_bucket" "mybucket"{
   bucket = "qts3fromtf"
 }
 
+Scenario: Lets create the following architecture in AWS
+The first version of the architecture to be created using terraform looks as shown below
+![Preview](./images/image2.png)
+
+
 
