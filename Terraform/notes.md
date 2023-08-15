@@ -20,13 +20,13 @@ By default terraform is a single executable that is downloaded into  your machin
 
 ====
 
-provider.tf:
+provider.tf: (Provider file)
 ============
 provider "aws" {
   region = "us-east-1"
 }
 
-main.tf:
+main.tf:(Resource File)
 ==========
 resource "aws_s3_bucket" "mybucket"{
   bucket = "qts3fromtf"
