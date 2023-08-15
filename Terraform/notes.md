@@ -7,7 +7,8 @@ Terraform:
 
    * Resource: This is piece of infrastructure which you want to create.
    * Provider:  where the infrastructure has to be built/created.
-![preview]image.png 
+
+![Preview](./images/image.png) 
 Terraform providers: https://registry.terraform.io/browse/providers
 
 * Each provider provide resource , which we can  user to create template.
@@ -30,8 +31,5 @@ main.tf:
 resource "aws_s3_bucket" "mybucket"{
   bucket = "qts3fromtf"
 }
-=========
-
-Scenario: 
 
 
