@@ -46,3 +46,16 @@ All other commands:
   version       Show the current Terraform version
   workspace     Workspace management
 ====
+
+provider.tf:
+============
+provider "aws" {
+  region = "us-east-1"
+}
+
+main.tf:
+==========
+resource "aws_s3_bucket" "mybucket"{
+  bucket = "qts3fromtf"
+}
+=========
