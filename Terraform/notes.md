@@ -31,10 +31,24 @@ main.tf:(Resource File)
 resource "aws_s3_bucket" "mybucket"{
   bucket = "qts3fromtf"
 }
-
-Scenario: Lets create the following architecture in AWS
+==========
+* Scenario: Lets create the following architecture in AWS
 The first version of the architecture to be created using terraform looks as shown below
 ![Preview](./images/image2.png)
 
+* For authenticate terraform using shared credentials  file
+   * Navigate to C:\Users\naray\.aws -> edit credentials file.
+```
+[default]
+aws_access_key_id = your access key
+aws_secret_access_key = your secret key
 
+```
+* if we want to give vpc id while creating subnet , we can give attribute like this for vpc id
 
+``
+resourve type.arn(resource name).id ->  if we doesnt k now vpc id , we can pass  vpc id like this format.
+
+``
+* we have 2 types of files
+  * 
