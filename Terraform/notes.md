@@ -51,4 +51,10 @@ resourve type.arn(resource name).id ->  if we doesnt k now vpc id , we can pass 
 
 ``
 * we have 2 types of files
-  * 
+  * state File: when we create resources, the resources wil created in .tf file
+  * plan File: what ever we are creating in .tf file,  plan will create after terraform apply.
+
+  Variables are 3 files:
+     * Input variables
+     * Output variables
+     * Local variables
